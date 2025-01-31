@@ -1,0 +1,27 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Vagrant files (if applicable)
+.vagrant/
+
+# IDE/Editor settings
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+
+# Ignore package-lock.json or yarn.lock if you don't want it in your repo (optional)
+# package-lock.json
+# yarn.lock
