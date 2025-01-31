@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 
@@ -7,9 +8,9 @@ app.use(cors());
 
 app.get("/", (req, res) => {
 	res.json({
-		email: "mosurodolapo@gmail.com",
+		email: process.env.EMAIL,
 		current_datetime: new Date().toISOString(),
-		github_url: "https://github.com/Dolapo-Mosuro/hng12.git",
+		github_url: process.env.GITHUB_URL,
 	});
 });
 
