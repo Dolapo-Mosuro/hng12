@@ -16,8 +16,8 @@ A simple public API that provides basic information, such as email, the current 
 ### Local Setup
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/<your-username>/hng12-public-api.git
-   cd hng12-public-api
+   git clone https://github.com/dolapo-mosuro/hng12-public-api.git
+   cd hng12/public-api
    ```
 
 2. **Install Dependencies**
