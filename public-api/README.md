@@ -1,31 +1,57 @@
 # HNG12 Public API
 
-## Description
+A simple public API that provides basic information, such as email, the current datetime, and the GitHub URL.
 
-A simple API that returns basic information.
+---
 
-## Setup
+## Features
+- Returns the registered email address.
+- Provides the current datetime in ISO 8601 format (UTC).
+- Displays the GitHub repository URL of this project.
 
-1. Clone the repository:
-2. Install dependencies:
-   - npm install
-3. Run the API:
-   - node index.js
-4. Access at `http://localhost:3000/`
+---
 
-## API Endpoint
+## Setup Instructions
 
-- **GET /**  
-  **Response:**
+### Local Setup
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/<your-username>/hng12-public-api.git
+   cd hng12-public-api
+   ```
 
-```json
-{
- "email": "...",
- "current_datetime": "2025-01-30T09:30:00Z",
- "github_url": "..."
-}
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-## Deployment
+3. **Start the Server**
+   ```bash
+   npm start
+   ```
 
-Public URL: https://public-api-seven-rho.vercel.app/
-```
+4. **Access the API**
+   The API will be available at `http://localhost:3000/`.
+
+### Deployment
+The API is deployed and publicly accessible. Use the following URL to test it:
+
+**Deployed URL:** `[URL](https://public-api-seven-rho.vercel.app/)`
+
+---
+
+## API Documentation
+
+### Endpoint
+**GET** `/`
+
+
+---
+
+## Repository Link
+- [GitHub Repository](https://github.com/dolapo-mosuro/hng12-public-api)
+
+---
+
+## Related Resource
+- [Hire Node.js Developers](https://hng.tech/hire/nodejs-developers)
