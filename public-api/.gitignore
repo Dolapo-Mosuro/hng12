@@ -25,3 +25,4 @@ build/
 # Ignore package-lock.json or yarn.lock if you don't want it in your repo (optional)
 # package-lock.json
 # yarn.lock
+.vercel
